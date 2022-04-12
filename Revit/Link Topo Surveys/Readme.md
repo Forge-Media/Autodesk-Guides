@@ -21,7 +21,7 @@ The following guide requires and is based on linking a Topo Survey which conform
 You NEED to first understand Revit's rather esoteric Origins and Coordinates system, don't base your understanding off of AutoCAD or any other CAD software as things in Revit are subtly different!
 
 1. What is the differences between the Project Base Point & the Survey Point?
-   ![Origins_and_Coordinates](Revit/Link%20Topo%20Surveys/Images/Revit_Origin_and_Coords.png "Origins and Coordinates")
+   ![Origins_and_Coordinates](/Images/Revit_Origin_and_Coords.png?raw=true "Origins and Coordinates")
 
 2. Understand that unlike AutoCAD, Revit has it's own Internal Origin (Startup Location / Revit Origin) and thus a somewhat _abstracted_ internal coordinate system which is separated and does not relate to World Coordinates/Geo Coordinates. If you loose the location of the Internal Origin you can find it by the following:
    ![Revit_Origin](/Images/Revit_Origin.png "Revit Origin")
