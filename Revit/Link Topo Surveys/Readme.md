@@ -86,6 +86,12 @@ Ensure the view you are set to within Revit has it's `Orientation` set to True N
 1. Add guide to altering the elevation of the Base Point.
 2. Add new guide to cover Shared Coordinates in Revit, which are completely separate to the above!!
 
+## Resources:
+
+- [Steve Stafford Survey Point Blog 3](https://revitoped.blogspot.com/2015/04/survey-point.html)
+- [Steve Stafford Survey Point Blog 4](https://revitoped.blogspot.com/2015/04/survey-point-post-4-acquiring.html)
+- [Aligning Revit models to DWG Surveys](https://www.youtube.com/watch?v=1_F6YRgY6aI&t)
+
 ## Footnotes:
 
 [^1]: ![Drawing_Setup](Images/Drawing_Setup.png?raw=true "Drawing Setup")
@@ -93,21 +99,12 @@ Ensure the view you are set to within Revit has it's `Orientation` set to True N
 [^3]: ![Survey_Features](Images/Survey_Features.png?raw=true "Survey Features")
 [^4]: ![ID_Command](Images/ID_Command.png?raw=true "ID Command")
 [^5]: Example Northings and Eastings conversion from Meters to Millimeters:
+  Survey Point (Station CH10) (Meters):
+  N/S (y): 168110.6000
+  E/W (x): 574717.5700
+  Elevation: 4.847
 
-```
-Survey Point (Station CH10) (Meters):
-N/S (y): 168110.6000
-E/W (x): 574717.5700
-Elevation: 4.847
-
-Survey Point (Station CH10) (Milimeters):
-N/S (y): 168110600.0
-E/W (x): 574717570.0
-Elevation: 4847.0
-```
-
-## Resources:
-
-- [Steve Stafford Survey Point Blog 3](https://revitoped.blogspot.com/2015/04/survey-point.html)
-- [Steve Stafford Survey Point Blog 4](https://revitoped.blogspot.com/2015/04/survey-point-post-4-acquiring.html)
-- [Aligning Revit models to DWG Surveys](https://www.youtube.com/watch?v=1_F6YRgY6aI&t)
+  Survey Point (Station CH10) (Milimeters):
+  N/S (y): 168110600.0
+  E/W (x): 574717570.0
+  Elevation: 4847.0
