@@ -92,17 +92,19 @@ Ensure the view you are set to within Revit has it's `Orientation` set to True N
 [^2]: ![UCS](Images/UCS.png?raw=true "UCS")
 [^3]: ![Survey_Features](Images/Survey_Features.png?raw=true "Survey Features")
 [^4]: ![ID_Command](Images/ID_Command.png?raw=true "ID Command")
-[^5]:
-    Example Northings and Eastings conversion from Meters to Millimeters:
-    Survey Point (Station CH10) (Meters):
-    N/S (y): 168110.6000
-    E/W (x): 574717.5700
-    Elevation: 4.847
+[^5]: Example Northings and Eastings conversion from Meters to Millimeters:
+
+```
+Survey Point (Station CH10) (Meters):
+N/S (y): 168110.6000
+E/W (x): 574717.5700
+Elevation: 4.847
 
 Survey Point (Station CH10) (Milimeters):
 N/S (y): 168110600.0
 E/W (x): 574717570.0
 Elevation: 4847.0
+```
 
 ## Resources:
 
