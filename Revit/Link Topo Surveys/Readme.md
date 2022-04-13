@@ -61,7 +61,7 @@ Ensure the view you are set to within Revit has it's `Orientation` set to True N
 4. _(Optional) If you followed step 1. Move (MV) the survey drawing by selecting the point or insertion point block reference point and moving it precisely to the Project Base Point:_
    ![Insertion_Point_to_Project_Base_Point](Images/Insertion_Point_to_Project_Base_Point.png?raw=true "Match Insertion reference to PBP")
 
-5. \*(Optional) If the project north rotation from True North is known, this can easily be added by using the Rotate True North tool. Simply enter the rotation factor, ensuring the view you are set to has it's `Orientation` set to True North! Once set the view should remain as is, however, set `Orientation` set to Project North will rotate the view by the factor previously entered. (Other tutorials show this step in the revers order, but as of Revit 2019 this method achieves the same outcome!)
+5. \*(Optional) If the project north rotation from True North is known, this can easily be added by using the Rotate True North tool. Simply enter the rotation factor, ensuring the view you are set to has it's `Orientation` set to True North! Once set the view should remain as is, however, set `Orientation` to Project North will rotate the view by the factor previously entered. (Other tutorials show this step in the revers order, but as of Revit 2019 this method achieves the same outcome!)
    ![Rotate_True_North](Images/Rotate_True_North.png?raw=true "Rotate True North")
 
 6. Now use the `Acquire Coordinates` (AC) tool which was created to let us PULL this information in from the linked Topo Survey .DWG. This method usually works and should avoid the manual process of converting the Topo Survey's eastings and northings from meters to millimeters. _However, if you need to make this change due to the `Acquire Coordinates` not working use the method outlined in this video_: [Aligning Revit models to DWG Surveys]: https://youtu.be/1_F6YRgY6aI?t=1169
@@ -71,7 +71,7 @@ Ensure the view you are set to within Revit has it's `Orientation` set to True N
    ![Survey_Point_3](Images/SurveyPoint03.jpg?raw=true "Find Survey Point").
 
 8. It can either be left there or moved to a know point, ideally a **Survey Station Point** or **Grid Intersection Point**. However, before moving the Survey Point, click on the Survey Point and `un-clip` it by clicking on the small clip icon to the side of the Survey Point. This allows you to move the Survey Point without moving the previously Acquire Coordinates (geo-coordinate origin). Precisely move the Survey Point to a desired location and inspect the eastings and northings match what is shown in the Topo Survey .DWG or Survey Station's location as specified within the Survey's Control Schedule (usually provided with Topo Survey).
-   ![Survey_Point_4](Images/SurveyPoint03.jpg?raw=true "Move Survey Point").
+   ![Survey_Point_4](Images/SurveyPoint04.jpg?raw=true "Move Survey Point").
 
 9. Lastly, re-clip and pin both the Survey Point, Project Base Point and linked Topo Survey drawing so as to not accidentally move these.
 
