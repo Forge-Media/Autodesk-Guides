@@ -42,7 +42,7 @@ Make sure you've followed the above Guide Requirements to correctly setup the To
 2. Set the site plan view to True North, as we are importing the Topo aligned to true north.
 
 3. Ensure your Revit Project Base Point and Survey Point are both set to the Internal Origin. If this is a new file and they've not been moved, they should all be located correctly. If you've moved them, right click and move the Project Base Point to Internal Origin, followed by manually moving the Survey Point. **From here we will avoid moving the Project Base Point from the Internal Origin!**
-   ![New Revit Project]/Images/New_Revit_Project.png?raw=true "New Revit Project")
+   ![New Revit Project]Images/New_Revit_Project.png?raw=true "New Revit Project")
 
 4. Linking the file within Revit and correct settings. Avoid using Auto-Detect for the `Import Units` setting, match this to what you set within the Topo Survey .DWG's Drawing Setup. Un-tick both: `Correct Lines that are slightly off axis` and `Orient to View` boxes. Set `Positioning` to Origin to Origin, _this may not work if the Topo Survey is over 33km from the AutoCAD origin_. Thus, my recommendation would be to set this to Manual - Center.
    ![Linking_Settings](Images/Linking.png?raw=true "Linking Settings")
