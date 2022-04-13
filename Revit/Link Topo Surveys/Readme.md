@@ -64,7 +64,7 @@ Ensure the view you are set to within Revit has it's `Orientation` set to True N
 5. \*(Optional) If the project north rotation from True North is known, this can easily be added by using the Rotate True North tool. Simply enter the rotation factor, ensuring the view you are set to has it's `Orientation` set to True North! Once set the view should remain as is, however, set `Orientation` set to Project North will rotate the view by the factor previously entered. (Other tutorials show this step in the revers order, but as of Revit 2019 this method achieves the same outcome!)
    ![Rotate_True_North](Images/Rotate_True_North.png?raw=true "Rotate True North")
 
-6. Now use the `Acquire Coordinates` (AC) tool which was created to let us PULL this information in from the linked Topo Survey .DWG. This method usually works and should avoid the manual process of converting the Topo Survey's eastings and northings from meters to millimeters. _However, if you need to make this change due to the `Acquire Coordinates` not working use the method outlined in this video: [Aligning Revit models to DWG Surveys]: https://youtu.be/1_F6YRgY6aI?t=1169_[^5]
+6. Now use the `Acquire Coordinates` (AC) tool which was created to let us PULL this information in from the linked Topo Survey .DWG. This method usually works and should avoid the manual process of converting the Topo Survey's eastings and northings from meters to millimeters. _However, if you need to make this change due to the `Acquire Coordinates` not working use the method outlined in this video_: [Aligning Revit models to DWG Surveys]: https://youtu.be/1_F6YRgY6aI?t=1169
    ![Acquire_Coordinates](Images/Acquire_Coordinates.png?raw=true "Acquire Coordinates").
 
 7. At this point the Survey Point will move to the acquired coordinates origin (0,0,0). Zoom way out to find it!
@@ -88,6 +88,25 @@ Ensure the view you are set to within Revit has it's `Orientation` set to True N
 
 ## Resources:
 
+### Convert northings and eastings from Meters to Millimeters:
+
+**Survey Point (Station CH10) (Meters):**
+
+```
+  N/S (y): 168110.6000
+  E/W (x): 574717.5700
+  Elevation: 4.847
+```
+
+**Survey Point (Station CH10) (Milimeters):**
+
+```
+  N/S (y): 168110600.0
+  E/W (x): 574717570.0
+  Elevation: 4847.0
+```
+### Useful additional guides
+
 - [Steve Stafford Survey Point Blog 3](https://revitoped.blogspot.com/2015/04/survey-point.html)
 - [Steve Stafford Survey Point Blog 4](https://revitoped.blogspot.com/2015/04/survey-point-post-4-acquiring.html)
 - [Aligning Revit models to DWG Surveys](https://www.youtube.com/watch?v=1_F6YRgY6aI&t)
@@ -98,12 +117,3 @@ Ensure the view you are set to within Revit has it's `Orientation` set to True N
 [^2]: ![UCS](Images/UCS.png?raw=true "UCS")
 [^3]: ![Survey_Features](Images/Survey_Features.png?raw=true "Survey Features")
 [^4]: ![ID_Command](Images/ID_Command.png?raw=true "ID Command")
-[^5]: Example Northings and Eastings conversion from Meters to Millimeters:
-  **Survey Point (Station CH10) (Meters):**
-  N/S (y): 168110.6000
-  E/W (x): 574717.5700
-  Elevation: 4.847
-  **Survey Point (Station CH10) (Milimeters):**
-  N/S (y): 168110600.0
-  E/W (x): 574717570.0
-  Elevation: 4847.0
